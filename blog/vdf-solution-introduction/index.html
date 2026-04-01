@@ -1,0 +1,7687 @@
+<!doctype html>
+<html lang="en" class="light overflow-x-hidden scroll-smooth" dir="ltr"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="linux, debian, ubuntu, consulting, hosting, training, classes, courses" />
+  <meta name="author" content="Blunix GmbH" />
+  <meta name="website" content="https://www.blunix.com" />
+  <meta name="email" content="info@blunix.com" />
+  <meta name="version" content="2.0.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <link rel="canonical" href="https://example.org/blog/vdf-solution-introduction/" />
+  <link rel="alternate" hreflang="en" href="https://example.org/blog/vdf-solution-introduction/" /><link rel="alternate" hreflang="x-default" href="https://example.org/blog/vdf-solution-introduction/" />
+  <title>VDF Solution Introduction</title>
+  <meta name="description" content="High bandwidth, low latency, extremely high stability, and high security" />
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <link rel="preload" href="/fonts/Nunito-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/Nunito-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/Nunito-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+
+<link rel="preload" href="/libs/@iconscout/unicons/css/line.min.css" as="style" onload="this.rel='stylesheet'" />
+
+
+
+<link rel="stylesheet" href="/css/blog-styles.min.css" />
+
+
+
+
+<link rel="stylesheet" href="/css/prism.min.css" />
+
+
+
+  <meta property="og:url" content="https://example.org/blog/vdf-solution-introduction/">
+  <meta property="og:site_name" content="Hugo Theme Starter">
+  <meta property="og:title" content="VDF Solution Introduction">
+  <meta property="og:description" content="High bandwidth, low latency, extremely high stability, and high security">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2026-01-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-16T00:00:00+00:00">
+      <meta property="og:image" content="https://example.org/images/background-04.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://example.org/images/background-04.jpg">
+  <meta name="twitter:title" content="VDF Solution Introduction">
+  <meta name="twitter:description" content="High bandwidth, low latency, extremely high stability, and high security">
+
+
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+  <link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/gif" href="/images/favicon/favicon.gif" />
+  <link rel="icon" type="image/png" href="/images/favicon/favicon.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicon/apple-touch-57x57.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicon/apple-touch-72x72.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-114x114.ico" />
+</head>
+<body class="font-nunito overflow-x-hidden text-base text-black bg-white"><nav id="topnav" class="defaultscroll is-sticky">
+    <div class="container relative">
+        <a class="logo" href="/">
+            
+            
+            <img src="/images/navbar/logo-dark.svg" class="l-dark h-[54px] w-auto" width="200" height="50" fetchpriority="high" alt="Hugo Theme Starter Logo">
+            
+            
+            <img src="/images/navbar/logo-light.svg" class="l-light h-[54px] w-auto" width="200" height="50" fetchpriority="high" alt="Hugo Theme Starter Logo">
+            
+        </a>
+        <div class="menu-extras">
+            <div class="menu-item">
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines"><span></span><span></span><span></span></div>
+                </a>
+            </div>
+        </div>
+        <div id="navigation" class="transition-transform duration-300 ease-in-out">
+            <ul class="navigation-menu nav-light justify-end">
+                
+                  
+                    <li><a href="/" class="sub-menu-item">Home</a></li>
+                  
+                
+                  
+                    <li class="has-submenu services-has-submenu parent-parent-menu-item">
+                      <a href="#" onclick="return false;">Solutions</a><span class="menu-arrow"></span>
+                      <ul class="submenu services-submenu"><li><ul>
+                        
+                          <li><a href="/blog/vdf-solution-introduction/" class="sub-menu-item text-base"><i class="uil uil-graduation-cap"></i> VDF Solution</a></li>
+                        
+                      </ul></li></ul>
+                    </li>
+                  
+                
+                  
+                    <li><a href="/blog/" class="sub-menu-item">Blog</a></li>
+                  
+                
+                  
+                    <li><a href="/#contact" class="sub-menu-item">Contact</a></li>
+                  
+                
+                <li class="has-submenu parent-parent-menu-item">
+                    <a href="#" onclick="return false;" aria-label="language switcher">
+                        <i class="uil uil-globe" style="font-size: 1.3rem;"></i>
+                    </a><span class="menu-arrow"></span>
+                    <ul class="submenu">
+                        <li>
+                            <ul id="languageMenu">
+                                
+                                
+                                
+                                
+                                  
+                                  
+                                  
+                                  
+                                  
+                                    
+                                  
+                                
+                                
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                    
+                                    
+                                    
+                                    
+                                      
+                                    
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                    
+                                  
+                                  
+                                <li>
+                                  <a href="/blog/vdf-solution-introduction/" class="sub-menu-item" data-lang="en" aria-current="true">
+                                    
+                                      
+                                      
+                                      
+                                      
+                                        <img src="/images/navbar/flags/english.webp" alt="English" width="54" height="36" class="h-5 w-auto lg:w-5 lg:h-5 object-contain flex-shrink-0">
+                                      
+                                    
+                                    <span class="hidden lg:inline">English</span>
+                                  </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="relative table w-full py-36">
+    
+    
+    <div class="absolute inset-0">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/background-04_hu_f79ba8509d7df70a.webp 480w, /images/background-04_hu_a7cbd8531dcb5f7d.webp 640w, /images/background-04_hu_9a7dd4ad10f08d27.webp 720w"
+          sizes="(max-width: 1920px) 100vw, 1920px" />
+      
+
+      
+      
+        <source
+          srcset="/images/background-04_hu_3450dc9f9aa88416.jpg 480w, /images/background-04_hu_15019ac97ed688c3.jpg 640w, /images/background-04.jpg 720w"
+          sizes="(max-width: 1920px) 100vw, 1920px" />
+      
+
+      
+      <img
+        src="/images/background-04.jpg"
+        alt="VDF Solution Introduction"
+        class="h-full w-full object-cover object-center"
+        width="720"
+        height="404"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high" />
+    </picture>
+  
+
+
+    </div>
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+    <div class="container relative">
+        <div class="grid grid-cols-1 pb-8 text-center mt-10">
+            <h1 class="md:text-4xl text-3xl md:leading-normal tracking-wide leading-normal font-medium text-white">VDF Solution Introduction</h1>
+            
+            <p class="text-center text-2xl text-white">High bandwidth, low latency, extremely high stability, and high security</p>
+            
+        </div>
+    </div>
+
+    <div class="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
+        <ul class="tracking-[0.5px] mb-0 inline-block">
+            <a href="/" title="main page"><li class="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white">Home</li></a>
+            <li class="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i class="uil uil-angle-right-b"></i></li>
+            <a href="/blog/" title="blog overview"><li class="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white">Blog</li></a>
+            <li class="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i class="uil uil-angle-right-b"></i></li>
+            <li class="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">VDF Solution Introduction</li>
+        </ul>
+    </div>
+</section>
+<div class="relative">
+    <div class="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden z-1 text-white">
+        <svg class="w-full h-auto scale-[2.0] origin-top" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+
+
+
+
+
+<section class="relative md:py-24 py-16 template-sec">
+    <div class="container relative">
+        <div class="grid grid-cols-1 gap-4 md:gap-5 lg:gap-[30px]">
+
+<p>Voice patch panels are physical connection devices in communication equipment rooms used for centralized management of telephone/audio lines. They primarily handle functions such as internal and external line patching, security unit access, patch cord scheduling, and fault isolation. They are often used in conjunction with MDF (Main Distribution Frame), DDF (Digital Distribution Frame), and ODF (Optical Distribution Frame) to form a comprehensive cabling system, widely applied in enterprise communications, telecommunications central offices, and data center voice subsystems.</p>
+<h4 id="omdf-optical-fiber-main-distribution-frame">OMDF (Optical Fiber Main Distribution Frame)</h4>
+<p>OMDF is designed to overcome the shortcomings of ODF (Optical Fiber Main Distribution Frame), such as small capacity, limited functionality, and inconvenient cable management. OMDF offers diverse functions.</p>
+<p>The OMDF should be installed as close as possible to the OLT (Optical Line Terminal) or other equipment room, taking into account factors such as the routing and capacity of physical channels like outgoing conduits, building shafts, and cable trays. Installation can be on the same floor (or in the same equipment room) or on a different floor. The following priority order should be followed for specific installation:</p>
+<ol>
+<li>If the existing cable distribution room has sufficient space, prioritize installing the OMDF in the cable measurement room;</li>
+<li>If the existing cable distribution room does not have sufficient space, the OMDF should ideally be installed in the same equipment room as the OLT;</li>
+<li>If neither the existing OLT nor the transmission equipment room has sufficient space, a separate OMDF equipment room can be installed on the same floor or on a different floor.</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_8e5b2761a3382d15.webp 320w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_1c31af8d19c06d44.webp 480w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_5176f9440af57159.webp 640w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_6fcc474bd9a1ea94.webp 800w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_9900251f6bc44818.webp 960w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_ab6cfb1d50b146c4.webp 1200w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_b885e7969c5d29b2.webp 1600w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_ca29b71276e45512.webp 1602w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_6f82917d2cabb346.jpg 320w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_de587ef9c68d972a.jpg 480w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_c3a965b4d88764c3.jpg 640w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_4bbde4471b96a393.jpg 800w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_af1fa424538f7710.jpg 960w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_c851466997153862.jpg 1200w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62_hu_e8df59d0334dae7.jpg 1600w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62.jpg 1602w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E6%9E%B62.jpg"
+        alt="my image"
+        class=""
+        width="1602"
+        height="3318"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_59a64ddcb1167bd8.webp 320w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_ca674069b8dc0f9b.webp 480w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_678c113a29476999.webp 640w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_9c4667fbb91308fb.webp 800w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_f39d7bfb27cdfee9.webp 960w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_6273cb8b329199e4.webp 1200w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_9dee306093d8858e.webp 1600w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_27124dc7fa5e1233.webp 1976w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_59ba9a096b235c83.jpg 320w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_f047ec6f8c2cfc26.jpg 480w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_33687ba10b74259c.jpg 640w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_907d475779272d5e.jpg 800w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_c6e4393acdbe7e28.jpg 960w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_84850467db0b30cb.jpg 1200w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1_hu_30621b788ea0ecf4.jpg 1600w, /images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1.jpg 1976w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/MDF%E8%AF%AD%E9%9F%B3%E9%85%8D%E7%BA%BF%E7%AE%B1.jpg"
+        alt="my image"
+        class=""
+        width="1976"
+        height="1603"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_988a3af04e33a3e0.webp 320w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_40d7022ea282bef0.webp 480w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_ae6ead896ddb6d1f.webp 640w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_b99e670c81686336.webp 800w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_9f2676575c887ed1.webp 960w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_f4db5bee0f08f88a.webp 1026w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_df46068ba230a9a9.jpg 320w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_30ed9d0c37a2cebd.jpg 480w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_15f36b2ccf179749.jpg 640w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_68b3b07a976d4f5e.jpg 800w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97_hu_9b2c365898abd35.jpg 960w, /images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97.jpg 1026w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/MDF%E4%BF%9D%E5%AE%89%E6%8E%A5%E7%BA%BF%E6%A8%A1%E5%9D%97.jpg"
+        alt="my image"
+        class=""
+        width="1026"
+        height="477"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_795a69981035ead5.webp 320w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_2af7c7178c5fe3f1.webp 480w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_d2c537e9cb054ddc.webp 640w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_7ba9ca7dde82d057.webp 800w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_2f40fc8cacc8ea5.webp 960w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_72d0a67334d58b19.webp 1054w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_2e837ac8351e25e3.jpg 320w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_49a927cab617d513.jpg 480w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_ca6d1b281d85ee8d.jpg 640w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_cc2daeb5b0e000c5.jpg 800w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3_hu_98becb36192362e6.jpg 960w, /images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3.jpg 1054w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/MDF%E6%B5%8B%E8%AF%95%E7%A3%A8%E5%8F%A3.jpg"
+        alt="my image"
+        class=""
+        width="1054"
+        height="439"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<h4 id="ddf">DDF</h4>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/DDF_hu_c37de32daf76c4c8.webp 320w, /images/devices/DDF_hu_2dd1020327bdc4c2.webp 480w, /images/devices/DDF_hu_8667d94013bf4b0f.webp 640w, /images/devices/DDF_hu_6886cd30f96d9b40.webp 800w, /images/devices/DDF_hu_d8848086f472b899.webp 960w, /images/devices/DDF_hu_52b253705ff30010.webp 1146w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/DDF_hu_bc58bfb8f06bdf71.jpg 320w, /images/devices/DDF_hu_4e2073ca46d693e0.jpg 480w, /images/devices/DDF_hu_e8a2d79858acad7d.jpg 640w, /images/devices/DDF_hu_b38534c9d55714ab.jpg 800w, /images/devices/DDF_hu_998c7f65f6f399e3.jpg 960w, /images/devices/DDF.jpg 1146w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/DDF.jpg"
+        alt="my image"
+        class=""
+        width="1146"
+        height="2940"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/DDF1_hu_408d2ed49b7a7252.webp 320w, /images/devices/DDF1_hu_f2019312396d541b.webp 480w, /images/devices/DDF1_hu_371ab3f560bc13f5.webp 640w, /images/devices/DDF1_hu_5a6c7eed66633f13.webp 800w, /images/devices/DDF1_hu_2a39fcdc220fdc2d.webp 960w, /images/devices/DDF1_hu_516925e8f0170590.webp 1200w, /images/devices/DDF1_hu_46791b006e005055.webp 1600w, /images/devices/DDF1_hu_ff33c104fa066f11.webp 2000w, /images/devices/DDF1_hu_823ff445a94fab57.webp 2400w, /images/devices/DDF1_hu_35e8742f2967823.webp 2924w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/DDF1_hu_2a1df897c919fb9c.jpg 320w, /images/devices/DDF1_hu_b42127f244e0c9ed.jpg 480w, /images/devices/DDF1_hu_5b0a735fb6960c1.jpg 640w, /images/devices/DDF1_hu_795b17db06a4b898.jpg 800w, /images/devices/DDF1_hu_b5779dcd61b1304a.jpg 960w, /images/devices/DDF1_hu_c3246ca1b2441120.jpg 1200w, /images/devices/DDF1_hu_24de33dc5c8e0f2c.jpg 1600w, /images/devices/DDF1_hu_e024c0bccd9e1d01.jpg 2000w, /images/devices/DDF1_hu_ac2ed4cc0951a008.jpg 2400w, /images/devices/DDF1.jpg 2924w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/DDF1.jpg"
+        alt="my image"
+        class=""
+        width="2924"
+        height="2052"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/DDF4_hu_5d4fa88b8ea4da82.webp 320w, /images/devices/DDF4_hu_1b0a8cafb82fc6a4.webp 480w, /images/devices/DDF4_hu_b00fd066916bedf3.webp 636w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/DDF4_hu_12de6f5566fb1a88.jpg 320w, /images/devices/DDF4_hu_6c01644f22b93e6a.jpg 480w, /images/devices/DDF4.jpg 636w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/DDF4.jpg"
+        alt="my image"
+        class=""
+        width="636"
+        height="1652"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/DDF5_hu_3d5780945e965045.webp 320w, /images/devices/DDF5_hu_81f9f36d50614c8f.webp 480w, /images/devices/DDF5_hu_886d67beab709e7e.webp 511w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/DDF5_hu_5d212dc10c63627d.jpg 320w, /images/devices/DDF5_hu_723248a93c518def.jpg 480w, /images/devices/DDF5.jpg 511w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/DDF5.jpg"
+        alt="my image"
+        class=""
+        width="511"
+        height="2084"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<h4 id="omdf">OMDF</h4>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/OMDF_hu_a8e3fcaa25989810.webp 320w, /images/devices/OMDF_hu_7d4455e89f5eee36.webp 480w, /images/devices/OMDF_hu_4f87029e665c7c15.webp 610w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/OMDF_hu_322cffaeb2d61c50.jpg 320w, /images/devices/OMDF_hu_5c295489b5c4f1e4.jpg 480w, /images/devices/OMDF.jpg 610w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/OMDF.jpg"
+        alt="my image"
+        class=""
+        width="610"
+        height="1024"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/OMDF%E7%85%A7%E7%89%87_hu_65bc527ddee7f194.webp 320w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_acdb614a87ebe42c.webp 480w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_7834818ddd69bbb4.webp 640w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_6543439ab364c15.webp 800w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_89fa9235300db1a4.webp 960w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_8e451173bc20ac71.webp 1200w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_64cab010ad81b52f.webp 1600w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_d00270b611493ef2.webp 2000w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_54600d5c1942fa6e.webp 2048w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/OMDF%E7%85%A7%E7%89%87_hu_e1281f274050f17a.JPG 320w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_2307b5bc7a436c4f.JPG 480w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_4a2d464675434780.JPG 640w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_3cc443b45234a53.JPG 800w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_66527c9ab99196b5.JPG 960w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_c3c975cb486c5688.JPG 1200w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_8db890ef563d9b03.JPG 1600w, /images/devices/OMDF%E7%85%A7%E7%89%87_hu_54bb6323fc9592f5.JPG 2000w, /images/devices/OMDF%E7%85%A7%E7%89%87.JPG 2048w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/OMDF%E7%85%A7%E7%89%87.JPG"
+        alt="my image"
+        class=""
+        width="2048"
+        height="1536"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_ab8cff254e9cfb97.webp 320w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_17133ed619ecaad0.webp 480w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_5a8b7588d3fd0dd4.webp 640w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_31c2d6e777890dbf.webp 800w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_ebbfdd5466c193f3.webp 960w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_6e46cf32b364758d.webp 1176w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_db991d3e28296292.png 320w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_807b59ab03a4a996.png 480w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_323b6f3556dad205.png 640w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_7668e6705c6032d9.png 800w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6_hu_ef885d7a0fdb828.png 960w, /images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6.png 1176w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/OMDF%E9%85%8D%E7%BA%BF%E6%9E%B6.png"
+        alt="my image"
+        class=""
+        width="1176"
+        height="2777"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<h4 id="fiber-optic-connectors">Fiber optic connectors</h4>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_178926b1b5c522a9.webp 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_8049f494abc964b8.webp 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_e6ae4f549aeb1361.webp 640w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_70404f69d0c47686.webp 800w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_4b88cc25b2beb0b3.webp 960w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_f30e090b0d3a251c.webp 1024w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_e3d69a051ef01f08.jpg 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_b1003f4583fbc50b.jpg 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_1ab5f633461f4243.jpg 640w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_b48e089ab38676fe.jpg 800w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01_hu_5edbb2a1605ecc17.jpg 960w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01.jpg 1024w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_01.jpg"
+        alt="my image"
+        class=""
+        width="1024"
+        height="768"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+            
+          
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_f05a85d7f026cde7.webp 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_5d84b9d3f40a09c3.webp 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_4c6b5459f454d684.webp 640w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_183da6b3ac1657cb.webp 800w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_961581c7e9ff8444.webp 960w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_19e0a9ca28745f56.webp 1200w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_797efa15a0ca68ca.webp 1600w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_d6cd3d120901d66c.jpg 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_100ea861bc99a7d7.jpg 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_c0ec8ccb7c58e294.jpg 640w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_23c90b8ee5b12282.jpg 800w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_4e4843b59043fdb.jpg 960w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_2323da7d5d3b7d6a.jpg 1200w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02_hu_335c148e64bdabed.jpg 1600w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_02.jpg"
+        alt="my image"
+        class=""
+        width="1600"
+        height="1200"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_cf4f92cc95e6a363.webp 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_b74514fc47cfbce1.webp 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_7e2631023ca91f45.webp 640w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_979d181d8ef07502.webp 800w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_67467dbdc6349602.webp 960w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_5093ed68e08ccea2.webp 1200w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_926d9fee2be63c26.webp 1600w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_7013b42599a7c47f.webp 2000w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_6c8a21f6b2d7a4c8.webp 2400w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_495303c3b160c385.webp 6139w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_14fa3a47bd201325.jpg 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_d4ec4a59839d3a24.jpg 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_4f97e7e1933d1edd.jpg 640w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_b44540790900faea.jpg 800w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_efb4c6babd64e5bd.jpg 960w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_7521b3bfacd0b7c4.jpg 1200w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_23cd83b818a9b4a8.jpg 1600w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_535bd2a5e31b2957.jpg 2000w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03_hu_e748ed7f2c1ad5a.jpg 2400w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03.jpg 6139w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_03.jpg"
+        alt="my image"
+        class=""
+        width="6139"
+        height="5273"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_04_hu_7c94be82f24be233.webp 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_04_hu_2ff2d0f7fe268cde.webp 400w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_04_hu_5a55a2bb1748b999.jpg 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_04.jpg 400w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_04.jpg"
+        alt="my image"
+        class=""
+        width="400"
+        height="400"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+      
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_05_hu_10df335b203bb972.webp 319w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_05.jpg 319w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_05.jpg"
+        alt="my image"
+        class=""
+        width="319"
+        height="260"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_2e56577b3d0a7c2.webp 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_9aa387d450b3afb0.webp 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_702f4327a0ff803d.webp 640w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_d98a3d50abadd60e.webp 800w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_b7cfab958fe48778.webp 960w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_ab2fc6363cc2bbf4.webp 1200w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_cd4613b1dff1e171.webp 1248w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_2fec901aeef82dcd.jpg 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_896682105031e5b2.jpg 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_e356cbf84ee7a34b.jpg 640w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_24d4d40abb7bcaee.jpg 800w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_8f7504cf9ae6c561.jpg 960w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06_hu_adaa9db2966f1f6e.jpg 1200w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06.jpg 1248w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_06.jpg"
+        alt="my image"
+        class=""
+        width="1248"
+        height="1000"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_07_hu_d314ec98fd4dca16.webp 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_07_hu_b88b99418fdaf05b.webp 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_07_hu_3540fa59b73efac2.webp 503w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_07_hu_93366d8f262b7415.jpg 320w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_07_hu_7e493836703af37d.jpg 480w, /images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_07.jpg 503w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BA%A4%E8%BF%9E%E6%8E%A5%E5%99%A8_07.jpg"
+        alt="my image"
+        class=""
+        width="503"
+        height="357"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<h4 id="fiber-optic-junction-box">Fiber optic junction box</h4>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_6e6205482c0675c8.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_428285d9b4266697.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_b5506d27299f6dcc.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_fe65e8dc0ac43081.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_fad79be9ea408cb1.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_f17224f71fe551d4.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_58ebf2e180c19c51.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_ba2e4add02484e6f.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_3c253990d301e991.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_ce38607d02ce2f51.webp 4000w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_e4a07fab4d8773b5.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_b056f31e12402729.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_2ba59566648735da.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_b9e0c2cc8cea184e.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_fc7cfa29e50ec1da.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_f22f07d698fee657.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_c0a57af7aad27986.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_929dd6573e39607a.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_6b11bbc856f32f72.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01.JPG 4000w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01.JPG"
+        alt="my image"
+        class=""
+        width="4000"
+        height="3000"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_1f7f74ca7113a025.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_2341dc0ea1f873d0.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_71a3920e98ff3549.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_cc4538529fa15a27.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_d8253884340fd7f0.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_76554835d4b651f4.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_d5545fd883131c60.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_49b89070e6f8b493.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_5ba5747637a7b9b0.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_4eadb3853344a66f.webp 3000w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_51c8e06011220c92.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_71a9fb0587ccbdda.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_ac1682710de4e904.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_473f6a62a1025b06.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_5463e0d4b49cbb48.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_5afab516b18b1cca.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_11ec3d319aa6edd0.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_30b9ca37c16173be.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03_hu_6e103086f0705ee8.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03.JPG 3000w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_03.JPG"
+        alt="my image"
+        class=""
+        width="3000"
+        height="4000"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_947b5b8369ab019.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_bd066f7b1a466550.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_4bdb4729d5c8786c.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_f82c90de19f7024c.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_1e096116b3d7967c.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_af8562e6af9b6e7c.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_750b81e2e2f29f4e.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_96aab643272cb947.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_5692ab53846eb3a4.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_2ac68ab60d9c4c4d.webp 4000w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_34f04e64658ad2b8.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_4fdfc0d320d94991.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_362d9a45ccdb1ce9.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_2c8f6d47291d5a1.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_c22023b9626f041f.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_3aca2e9f9d1c701b.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_2f7e196615670e36.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_1db07752a18eb3e0.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04_hu_92196edd895db21b.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04.JPG 4000w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_04.JPG"
+        alt="my image"
+        class=""
+        width="4000"
+        height="3000"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_2efbfb5717c6dc35.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_17e17042e0e5b090.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_5d3206361df23367.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_bbd9116a55577a95.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_476306bd540aaf2d.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_cf287006fa848b0e.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_60d6e32a33be8bc6.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_dc70d25148a874b.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_939a36335b51a43.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_cd388a904fd346be.webp 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_4ec74642d50e97b9.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_271dd579975282cc.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_94f1ab70db66ea8d.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_bacc5fb79af1421.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_55065177150b3ca7.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_f0ee07dd256927ba.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_e801f1e69c42a50e.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_aa213be981ad5476.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05_hu_4c069b3ec52e66e2.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05.JPG 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_05.JPG"
+        alt="my image"
+        class=""
+        width="3240"
+        height="4320"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_3440a18913714dc3.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_d29f5a2f9276cf0e.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_dcb95391659b2800.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_e9e68c15cbeed459.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_4de6228a22d52422.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_e6afdc30a431e565.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_c5219a5876ecbe27.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_9cd49e2852269c53.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_413f4bb27ca5febf.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_4fc990cf1c2c8c85.webp 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_5ff3ffb255a709c7.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_321b8d3d503f32ba.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_6c163e592240a992.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_1498360c451cbd5c.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_c46fc98495a51ed7.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_62836f6fdd7f2fd5.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_c18a3a16d149a202.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_b77b29a9668b3c.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06_hu_19fe0ccb0f375cd.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06.JPG 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_06.JPG"
+        alt="my image"
+        class=""
+        width="3240"
+        height="4320"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_4d567f7db67a6c4a.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_21db48fcd859ddb4.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_31a5e6034db721c1.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_73817459a2e61acf.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_b92f3229f128c605.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_70d3db6e74c6d8dc.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_2ec0fb34d54dbe07.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_649a1e70ba2388bb.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_e307653ab8b35b3a.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_41e63f85d502cb8e.webp 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_62737bef4eb6f10b.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_b91234f81536a1dc.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_64aafdcd33709473.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_e2801084a4342e6b.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_1e06f15f2600ab0e.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_bdbf5bcfdf910ec4.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_9e366ad54f24e1fb.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_ca77c9a042273473.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07_hu_e3a8310f698ca81d.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07.JPG 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_07.JPG"
+        alt="my image"
+        class=""
+        width="3240"
+        height="4320"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_4ee65c38d3a363a4.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_ff5627218150ace1.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_febd41530235ef12.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_8f970b1ce29432dc.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_3ca69c46cf2f2a3f.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_2ae5a03eef826eb8.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_2e01efa32a6ba68a.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_e6363c035eda989a.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_60d96c9982f37eba.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_93e410ba4f930d8e.webp 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_34974a549da61524.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_961431ba790f055e.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_25a228e2c9fe3e36.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_2c47d0fd0ae9b679.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_b515a40379dfa940.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_a8cb342e7c3f4518.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_3205855df3f17c49.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_e0ad5956953e7238.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08_hu_2d18ebc17820b5a3.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08.JPG 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_08.JPG"
+        alt="my image"
+        class=""
+        width="3240"
+        height="4320"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_69d97bf955d74819.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_648cf0a6991d6892.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_f6a97e7a447e757d.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_b2d72fa09713944d.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_4bce7f44a2685410.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_cfd7b04051b8f9e9.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_9bb0daafb3ea1f12.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_83e77c6cf9f0ca37.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_b5da5e0e9f96ff20.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_c09fb0033219ebe1.webp 4320w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_dcf7daba7031628.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_ef69ab831c6b41d0.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_8ae6a2f3a885ea1f.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_eed0cd8aaf4a2a6b.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_cb370e85eca7d048.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_93c13cbc5d09095d.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_77733e94d4f3ad86.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_30cdb91b561471ae.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09_hu_4bc5942c92aa0cb4.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09.JPG 4320w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_09.JPG"
+        alt="my image"
+        class=""
+        width="4320"
+        height="3240"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_45d2f9a2cc14694f.webp 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_d268b246d41fdfd7.webp 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_cca870cfb90d109.webp 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_88938f11fd94545a.webp 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_2459ce75147cb76a.webp 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_2f8a6199cfd6ca22.webp 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_5f858ef37947014c.webp 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_7ecf09fee5dadaa0.webp 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_28387af1aa1575ac.webp 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_d7411b3a87afd6a2.webp 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_ef8ea414714d9a60.JPG 320w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_8bc23d4cf54acfd7.JPG 480w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_161932fe81939a73.JPG 640w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_e4723e3149cd01c5.JPG 800w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_e39e2ad04564d3f5.JPG 960w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_2eb716635e3087fd.JPG 1200w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_5d58229fa6fa0e4.JPG 1600w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_687db3a1ca7f785c.JPG 2000w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10_hu_a46d0ab62fe4f8e0.JPG 2400w, /images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10.JPG 3240w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_10.JPG"
+        alt="my image"
+        class=""
+        width="3240"
+        height="4320"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<h4 id="underground-fiber-optic-connectors">Underground Fiber optic connectors</h4>
+<p>Underground fiber optic junction boxes overcome the various problems associated with traditional junction boxes, effectively solving construction and installation issues such as difficulties in land acquisition, municipal approval, impact on urban appearance, and susceptibility to theft and damage.</p>
+<p>Furthermore, because they are installed and stored underground, compared to traditional junction boxes where temperature variations are minimal throughout the day and seasons and there is almost no solar radiation,</p>
+<p>the lifespan of the fiber optic cables, connectors, and adapters inside the box is significantly increased, providing a more stable and secure guarantee for the local fiber optic network.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_8f188346576c95d6.webp 320w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_c0460351648202f8.webp 480w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_29d1c5b7f5b7d351.webp 640w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_5727c2a118ecece.webp 800w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_9ac62b896292bf5d.webp 960w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_ba29100440af112a.webp 1112w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_c66579bfd54b1731.png 320w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_4f44e1eeb57d6fea.png 480w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_c43d242d12c0cec9.png 640w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_3e7565ef4b7b5807.png 800w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01_hu_1b6dfe6aea0cfd35.png 960w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01.png 1112w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_01.png"
+        alt="my image"
+        class=""
+        width="1112"
+        height="2506"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+          
+            
+            
+            
+
+            
+            
+            
+          
+
+          
+          
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      
+      
+        
+          
+          
+          
+          
+        
+      
+
+    
+    
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    <picture>
+      
+      
+        <source
+          type="image/webp"
+          srcset="/images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_8e8276a9c434e5a6.webp 320w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_caeb7ef107cfd416.webp 480w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_f01ae81b409e28b7.webp 640w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_2af1438b28c74ee.webp 800w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_b7fbec1694a94731.webp 960w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_478ae8496da632aa.webp 1200w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_dd23454a9ff36da7.webp 1502w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      
+        <source
+          srcset="/images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_8daf6d0cc6b34c25.png 320w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_a1feee811bb63272.png 480w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_e20594172cd17a0c.png 640w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_103fc3ae8e5987fa.png 800w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_3fae55ed349fb26b.png 960w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02_hu_414d13bfa59ff29a.png 1200w, /images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02.png 1502w"
+          sizes="(min-width: 1024px) 1200px, 100vw" />
+      
+
+      
+      <img
+        src="/images/devices/%E5%9C%B0%E4%B8%8B%E5%85%89%E7%BC%86%E4%BA%A4%E6%8E%A5%E7%AE%B1_02.png"
+        alt="my image"
+        class=""
+        width="1502"
+        height="2358"
+        loading="lazy"
+        decoding="async"
+         />
+    </picture>
+  
+
+</p>
+
+
+        </div>
+    </div>
+</section>
+
+  <section class="relative py-16 md:py-24" id="questions-contact">
+  <div class="relative container">
+    <div class="grid grid-cols-1 text-center">
+      <h2 class="mb-2 text-4xl font-bold">Questions? Requests? Suggestions?</h2>
+      <div class="my-6">
+        <a href="/#contact" title="Contact" class="mt-2 mb-2 inline-block rounded-md border border-blue-600 bg-blue-600 px-5 py-2 text-center align-middle text-xl font-semibold tracking-wide text-white duration-500 hover:border-green-700 hover:bg-green-700 md:px-6 md:py-3 md:text-3xl"><i class="uil uil-phone"></i> Contact us Today!</a>
+      </div>
+      <h3 class="mb-4 text-2xl leading-normal font-semibold md:text-3xl md:leading-normal">We are looking forward to hearing from you!</h3>
+      <p class="mx-auto max-w-xl text-2xl text-slate-500">
+        Are you looking for<br />
+        
+        
+        
+          
+          
+            <a class="font-semibold text-primary underline hover:text-blue-700 hover:no-underline" href="/solutions/mdf-distribution/" title="MDF Distribution">MDF Distribution</a>,<br />
+          
+            <a class="font-semibold text-primary underline hover:text-blue-700 hover:no-underline" href="/solutions/adsl-broadband/" title="ADSL Broadband">ADSL Broadband</a> or<br />
+          
+            <a class="font-semibold text-primary underline hover:text-blue-700 hover:no-underline" href="/solutions/after-sales-service/" title="After-sales service">After-sales service</a>?
+          
+        
+      </p>
+    </div>
+    
+  </div>
+  
+</section>
+
+
+
+<footer class="footer bg-dark-footer relative">
+    <div class="container relative">
+        <div class="grid grid-cols-12">
+            <div class="col-span-12">
+                <div class="py-[60px] px-0">
+                    <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                        <div class="lg:col-span-3 md:col-span-12">
+                            <h2 class="tracking-[1px] text-white font-semibold"></h2>
+                            <div class="mt-6 text-white [&_*]:text-white"><p>Copyright 2026 Tuoguangtong(TGT) Information Tech.</p>
+<p>All rights reserved.</p>
+</div>
+                        </div>
+
+                        <div class="lg:col-span-3 md:col-span-4">
+                            
+                            
+                            <h2 class="tracking-[1px] text-white font-semibold">Company</h2>
+                            <ul class="list-none footer-list mt-6">
+                                
+                                  <li><a href="/" title="Home" class="text-white hover:text-sky-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Home</a></li>
+                                
+                                  <li class="mt-[10px]"><a href="/consulting/" title="Services" class="text-white hover:text-sky-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Services</a></li>
+                                
+                                  <li class="mt-[10px]"><a href="/#contact" title="Contact" class="text-white hover:text-sky-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Contact</a></li>
+                                
+                            </ul>
+                            
+                        </div>
+
+                        <div class="lg:col-span-3 md:col-span-4">
+                            
+                            
+                            <h2 class="tracking-[1px] text-white font-semibold">Resources</h2>
+                            <ul class="list-none footer-list mt-6">
+                                
+                                  <li><a href="/blog/" title="Blog" class="text-white hover:text-sky-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Blog</a></li>
+                                
+                            </ul>
+                            
+                        </div>
+
+                        <div class="lg:col-span-3 md:col-span-4">
+                            <h2 class="tracking-[1px] text-white font-semibold">Follow Us</h2>
+                            <ul class="list-none mt-6 space-x-2">
+                                
+                                  <li class="inline"><a href="https://twitter.com/" title="Follow us on Twitter" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 duration-500 text-2xl">
+                                    <i class="uil uil-twitter"></i>
+                                  </a></li>
+                                
+                                  <li class="inline"><a href="https://www.linkedin.com/" title="Connect on LinkedIn" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 duration-500 text-2xl">
+                                    <i class="uil uil-linkedin"></i>
+                                  </a></li>
+                                
+                                  <li class="inline"><a href="https://github.com/" title="View our GitHub" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 duration-500 text-2xl">
+                                    <i class="uil uil-github"></i>
+                                  </a></li>
+                                
+                                  <li class="inline"><a href="https://instagram.com/" title="Follow on Instagram" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-sky-400 duration-500 text-2xl">
+                                    <i class="uil uil-instagram"></i>
+                                  </a></li>
+                                
+                            </ul>
+                            
+                            
+                            
+                            <p class="mt-8 text-white">
+                              
+                                Proud member of <a class="hover:text-sky-400 font-semibold underline hover:no-underline" style="color:#F48FB1;" href="https://themes.gohugo.io/" rel="noopener noreferrer" target="_blank" title="Hugo Themes Directory">Hugo Themes</a>
+                              
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<style>
+#fade {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  opacity: .80;
+}
+
+#light {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 1002;
+  overflow: visible;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxclose {
+  cursor: pointer;
+  color: #fff;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 1003;
+}
+
+.boxclose:before {
+  content: "×";
+}
+
+.video-container {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  background-color: black;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container video,
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 640px) {
+  .video-container {
+    width: 95%;
+  }
+}
+</style>
+
+
+<div id="light">
+    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+    <div class="video-container">
+        <video style="display: none;">
+        </video>
+        <iframe id="youtube-iframe" style="display: none; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div id="fade" onClick="lightbox_close();"></div>
+
+<script>
+window.document.onkeydown = function(e) {
+  if (!e) {
+    e = event;
+  }
+  if (e.keyCode == 27) {
+    lightbox_close();
+  }
+}
+
+function lightbox_open(videoId) {
+  const lightbox = document.getElementById('light');
+  const fade = document.getElementById('fade');
+  const video = lightbox.querySelector('video');
+  const iframe = document.getElementById('youtube-iframe');
+  
+  lightbox.style.display = 'flex';
+  fade.style.display = 'block';
+  
+  
+  if (videoId && videoId !== 'placeholder' && !videoId.includes('.')) {
+    
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    iframe.style.display = 'block';
+    video.style.display = 'none';
+  } else {
+    
+    video.src = videoId || 'https://www.blunix.com/assets/images/linux-managed-hosting/placeholder.mp4';
+    video.style.display = 'block';
+    iframe.style.display = 'none';
+    video.load();
+    video.play();
+  }
+}
+
+function lightbox_close() {
+  const lightbox = document.getElementById('light');
+  const fade = document.getElementById('fade');
+  const video = lightbox.querySelector('video');
+  const iframe = document.getElementById('youtube-iframe');
+  
+  lightbox.style.display = 'none';
+  fade.style.display = 'none';
+  
+  if (video) {
+    video.pause();
+    video.currentTime = 0;
+  }
+  
+  if (iframe) {
+    iframe.src = '';
+  }
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('[data-type="youtube"]').forEach(element => {
+    element.addEventListener('click', function(e) {
+      e.preventDefault();
+      const videoId = this.getAttribute('data-id');
+      lightbox_open(videoId);
+    });
+  });
+});
+</script>
+
+<a href="#start" onclick="topFunction()" id="back-to-top" class="back-to-top fixed end-5 bottom-5 z-10 hidden size-9 rounded-full bg-blue-600 text-center text-lg leading-9 text-white"><i class="uil uil-arrow-up"></i></a>
+
+    
+    
+    
+    <script src="/js/prism.min.js"></script>
+    
+
+    <script defer src="/js/scripts.js"></script>
+  </body>
+</html>
